@@ -1,6 +1,6 @@
 <?php
 
-Route::get('(:bundle)', function()
+/*Route::get('(:bundle)', function()
 {
 	return View::make('jupload::index');
 });
@@ -28,7 +28,7 @@ Route::any('(:bundle)/upload/(:any?)', array('as' => 'upload', function($folder=
 	header('Access-Control-Allow-Methods: OPTIONS, HEAD, GET, POST, PUT, DELETE');
 	header('Access-Control-Allow-Headers: X-File-Name, X-File-Type, X-File-Size'); */
 
-	switch (Request::method())
+	/*switch (Request::method())
 	{
 		case 'OPTIONS':
 			break;
@@ -49,4 +49,4 @@ Route::any('(:bundle)/upload/(:any?)', array('as' => 'upload', function($folder=
 		default:
 			header('HTTP/1.1 405 Method Not Allowed');
 	}
-}));
+}));*/
