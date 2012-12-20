@@ -1,0 +1,14 @@
+{
+    "name": "frenesie/bundles/jupload",
+    "description": "BlueImp Jquery Upload",
+    "authors": [
+        {
+            "name": "Martin Bastien",
+            "email": "martin.bastien@studiofrenetic.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "minimum-stability": "dev"
+}
